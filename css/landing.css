@@ -34,8 +34,8 @@ li {
 }
 
 .body {
-  float:right;
-  width: 30%;
+  float:left;
+  width: 50%;
 }
 
 .body-header{
