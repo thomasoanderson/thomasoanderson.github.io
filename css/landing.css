@@ -1,7 +1,7 @@
 body {
   margin:0;
   padding:0;
-  color:#222;
+  color:#333;
   font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-  color:#444;
+  color:#333;
   text-decoration:none;
 } 
 
@@ -34,8 +34,8 @@ li {
 }
 
 .body {
-  float:left;
-  width: 50%;
+  float:right;
+  width: 33%;
 }
 
 .body-header{
@@ -70,10 +70,6 @@ li {
 .body-content li {
   font-size: 12px;
 }
-
-<!--.social {
-  margin-top: 40px;
-}-->
 
 .fa {
   padding: 10px;
