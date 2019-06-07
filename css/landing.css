@@ -23,15 +23,7 @@ li {
   margin-left:-40px;
 }
 
-.header {
-  background-image: url("../turkey2.jpg");
-  background-position: center;
-  background-repeat: no-repeat; 
-  background-size: cover;
-  float:left;
-  height: 100%;
-  width:67.6666%;
-}
+
 
 .body {
   float:left;
