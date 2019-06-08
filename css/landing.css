@@ -63,6 +63,17 @@ li {
   font-size: 12px;
 }
 
+.header {
+  background-image: url("../graphics/santa 1.jpg");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  float:left;
+  height: 100%;
+  width:67.6666%;
+}
+
+
 .social {
   margin-top: 40px;
 }
