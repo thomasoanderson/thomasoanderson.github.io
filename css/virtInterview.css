@@ -7,7 +7,7 @@
 body {
   margin:0;
   padding:0;
-  color:    #333;
+  color:#333;
   font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 .header {
     width: 100%;
     height: 125px;
+
     /*background-color:   #d4ecf6;*/
 }
 
@@ -74,85 +75,100 @@ a {
     font-weight: bold;
 }
 
-
 .hereNow {
     color: #237b22
 }
 
-.content{
+
+.header2 {
+    width: 100%;
+    height: 15%;
+    border: solid, 1px, black;
+}
+
+.picA{
+    float:   left;
+    height:   100%;
+}
+
+h1 {
+    margin:  0;
+}
+
+.turk {
+    
+    width: 100px;
+    height: 100px;
+    padding:  0 0 0 0;
+    margin:  0 0 15px 25px;
+}
+
+
+.name2 {
+    font-size: 26px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+    padding:   30px 0 0 140px;
+}
+
+
+#content{
     width:   100%;
     height:    400px;
+    padding:   20px 20px 20px 20px;
 }
 
-h3 {
-    font-weight: bold;
-    text-decoration:   underline;
-}
-
-
-#leftbar div p {padding: 0 0 0 20px}
-#rightbar div p {padding: 0 0 0 30px}
-
-#leftbar {
-    width: 46%;
+.vidpic {
+    width: 360px;
+    height: 90px;
     
-    height: 450px;
-    background-color: white;
-    font-size: 16px;
-    padding: 0 0 0 2%;
+}
+
+.pic1 {
+    
+    padding: 10px 10px 10px 10px;
+    float:   left;
+   }
+
+.pic2 {
+    padding: 10px 10px 10px 10px;
     float: left;
+    
 }
 
-#rightbar {
-    width: 46%;
-    height: 450px;
-    background-color: white;
-    font-size: 16px;
-    padding: 0 0 0 5%;
-    float: right;
-}
-
-.bio, .work, .education {
-    font-size: 16px;
+.pic3 {
+    padding: 10px 10px 10px 10px;
     float: left;
-    width: 100%;
-    padding: 0 2% 0 0;
+   
 }
 
-
-.skills
-{
-    font-size: 16px;
+.pic4 {
+    padding: 10px 10px 10px 10px;
     float: left;
-    width: 100%;
-    line-height:   1.65;
-    padding: 0 2% 0 0;
+   
 }
 
-
-.pers, .refer {
-    font-size: 16px;
-    float: left;
-    width: 100%;
-    padding: 0 2% 0 0;
+div nav {
+    float:    right;
+    color: #2308f8;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0 0 20px 20px;
 }
-
-p {
-    width: 100%;
-    margin:   0 0 0 0;
-}
-
 
 #footer {
     width: 100%;
-    height:  10%;
+    height:  5%;
 }
+
+
 
 #foot {
     color:  #2816d6;
     font-size:    16px;
     font-style:    italic;
-    text-align:   center;
-    padding:  0 0 0 0;
-    height:  60px;
+    text-align:     center;
+    padding:  1% 0 1% 0;
 }
