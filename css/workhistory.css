@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     
 }
 
-img {
+.img1 {
     
     width: 80px;
     height: 80px;
@@ -122,13 +122,56 @@ a {
 
 h3 {
     font-weight:   bold;  
+    height:   30px;
 }
+
+
+figcaption.popup1 {
+    padding: 10px 10px 10px 10px;
+    background: #e1e1e1;
+    position: relative;
+    width: 600px;
+    height: 390px;
+    box-shadow: 0 0 15px #abdeed;
+    visibility: hidden;
+}
+
+.thumblink1:hover figcaption.popup1 {
+    position: absolute;
+    top: 285px;
+    left: 300px;
+    visibility: visible;
+}
+
+.thumblink1 {
+    margin: 0;
+    height: 20px;
+}
+
+.job1 {
+    display: inline;
+}
+
+
+.popup1 p {
+    font-family: 'Monotype Corsiva';
+    font-weight: bold;
+    font-size: 24px;
+    color: #299c16;
+}
+
+.img5 {
+    height: 335px;
+    width: 600px;
+}
+
 
 figcaption.popup6 {
     padding:   10px 10px 10px 10px;
     background:   #e1e1e1;
     position:  relative;
-    width:  1116px;
+    width:  1100px;
+    height:  300px;
     box-shadow:  0 0 15px #abdeed;
     visibility:   hidden;
 }
@@ -142,6 +185,7 @@ figcaption.popup6 {
 
 .thumblink6 {
     margin:  0;
+    height:  20px;
 }
 
 .job6 {
@@ -154,6 +198,7 @@ figcaption.popup6 {
     font-family:    'Monotype Corsiva';
     font-weight:       bold;
     font-size:        24px;
+    color:   #299c16;
    
 }
 
