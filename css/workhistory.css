@@ -116,6 +116,7 @@ a {
 .content{
     width:   100%;
     height:   400px;
+    margin:   auto;
 }
 
 
@@ -132,14 +133,18 @@ figcaption.popup6 {
     visibility:   hidden;
 }
 
-figure.thumblink6:hover figcaption.popup6 {
+.thumblink6:hover figcaption.popup6 {
     position:  absolute;
     top: 150px;
     left: 300px;
     visibility:  visible;
 }
 
-.job6 .thumblink6 .link6{
+.thumblink6 {
+    margin:  0;
+}
+
+.job6 {
     display:   inline;
 }
     
@@ -158,6 +163,11 @@ figure.thumblink6:hover figcaption.popup6 {
 
 }
 
+/*
+a.link6 {
+    width:  300px;
+}
+    */
 
 #leftbar {
     width: 20%;
