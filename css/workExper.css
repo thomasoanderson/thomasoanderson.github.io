@@ -17,7 +17,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     width: 100%;
-    height:  110px;   
+    height:  125px;   
 }
 
 .pic1 {
@@ -114,7 +114,7 @@ a:hover {
 
 .content{
     width:   100%;
-    height:   400px;
+    //height:   400px;
 }
 
 
@@ -128,7 +128,7 @@ h3 {
 
 #leftbar {
     width: 46%;
-    height: 400px;
+   // height: 400px;
     background-color: #e8eff4;
     font-size: 16px;
     padding: 0 2% 0 2%;
@@ -137,7 +137,7 @@ h3 {
 
 #rightbar {
     width: 46%;
-    height: 400px;
+   // height: 400px;
     background-color: #e8eff4;
     font-size: 16px;
     padding: 0 2% 0 2%;
@@ -161,14 +161,15 @@ h3 {
 
 #footer {
     width: 100%;
-    height:  10%;
+  //  height:  10%;
+    float:  left;
 }
 
 #foot {
     color:  #2816d6;
     font-size:    16px;
     font-style:    italic;
-    text-align:     center;
-    padding:  0 0 0 0;
-    height:   60px;
+   // text-align:     center;
+    padding:  15px 0 0 300px;
+  //  height:   60px;
 }

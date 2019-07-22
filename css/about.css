@@ -1,6 +1,6 @@
 .wrapper{
-    border:   solid, 5px, #342c5a;
-    height:  auto;
+    //border:   solid, 5px, #342c5a;
+    //height:  auto;
 }
 
 body {
@@ -25,7 +25,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .pic1 {
     float: left;
-    border: solid, 10px, black;
 }
 
 img {
@@ -38,7 +37,6 @@ img {
 .name {
     font-size: 26px;
     letter-spacing: 2px;
-    /* text-transform: uppercase;--> */
     margin:   0 0 0 0 ;
     padding:   20px 0 0 0;
    
@@ -52,26 +50,27 @@ img {
 }
 
 .navbar {
-    float: right;
+    //float: left;
     color: #2308f8;
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    padding: 20px 0 0 0;
-    text-align:  center;
+    padding: 0px 0 0 0;
+    //text-align:  center;
     width:   1300px;
-    margin:   0;
+    //margin:   0;
 }
 
 nav ul li {
-    
-    float:    right;
-    display:  block;
-   
+    float: left;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    padding: 0 0 15px 0;
 }
 
 li {
-    width:  200px;
+    //width:  200px;
 }
 
 a {
@@ -189,16 +188,7 @@ h5 {
     font-size:    16px;
     font-style:    italic;
     text-align:     center;
-    display:    inline;
-    padding:   0 0 0 80px;
+    //display:    inline;
+    padding:   0 0 0 0px;
 }
 
-nav {
-    //float: right;
-    color: #2308f8;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
-    padding: 0px 0px 0 120px;
-    display:   inline;
-}

@@ -1,33 +1,31 @@
-.wrapper{
-    width:  100%;
-    
-  
+.wrapper {
+    // border: solid, 5px, #342c5a;
+    //width: 100%;
 }
 
 body {
-  margin:0;
-  padding:0;
-  color:#333;
-  font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight:700;
+    font-family: 'Roboto Condensed', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 
 .header {
     width: 100%;
     height: 125px;
-
 }
 
 .pic1 {
     float: left;
-    border: solid, 10px, black;
 }
 
-img {
+/*img1 is the frog logo*/
+.img1 {
     width: 80px;
     height: 80px;
     padding: 10px 10px 10px 10px;
@@ -47,24 +45,28 @@ img {
 }
 
 .navbar {
-    float: right;
+    //float: left;
     color: #2308f8;
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    padding: 20px 0 0 0;
-    text-align: center;
+    padding: 0px 0 0 0;
+    //text-align: left;
+    //display: inline;
     width: 1300px;
-    margin: 0;
+    //margin: 0;
 }
 
 nav ul li {
-    float: right;
-    display: block;
+    float: left;
+    display: inline-block;
+    width: 140px;
+    text-align: left;
+    padding: 0 0 15px 0;
 }
 
 li {
-    width: 200px;
+    //width: 120px;
 }
 
 a {
@@ -74,9 +76,15 @@ a {
     font-weight: bold;
 }
 
+    a:hover {
+        color: purple;
+        background-color: wheat;
+    }
+
 .hereNow {
     color: #237b22
 }
+
 
 
 .header2 {
@@ -124,7 +132,7 @@ h1 {
     
 }
 
-.pic1 {
+.pic1a {
     
     padding: 10px 10px 10px 10px;
     float:   left;
@@ -166,13 +174,3 @@ h1 {
     display: inline;
 }
 
-nav {
-    float: right;
-    color: #2308f8;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
-    padding: 0 30px 0 0;
-    display: inline;
-}
-    
