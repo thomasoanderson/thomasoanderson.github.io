@@ -1,6 +1,6 @@
 .wrapper{
-    border:   solid, 5px, #342c5a;
-    
+   // border:   solid, 5px, #342c5a;
+  //  width:    100%;
 }
 
 body {
@@ -17,16 +17,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
     width: 100%;
-    height:  125px;
-    
-    /*background-color:   #d4ecf6;*/  
+    height:  110px;  
 }
 
 .pic1 {
     float: left;
-    
 }
 
+/*img1 is the frog logo*/
 .img1 {
     
     width: 80px;
@@ -48,24 +46,29 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar {
-    float: right;
+    //float: left;
     color: #2308f8;
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    padding: 20px 0 0 0;
-    text-align:  center;
+    padding: 0px 0 0 0;
+    //text-align:  left;
+    //display:    inline;
     width:   1300px;
-    margin:   0;
+    //margin:   0;
 }
 
 nav ul li {   
-    float:    right;
-    display:  block; 
+    float:    left;
+    display:  inline-block; 
+    width:  140px;
+    text-align:   left;
+    padding:  0 0 15px 0;
 }
 
 li {
-    width:  200px;
+    //width:  120px;
+    
 }
 
 a {
@@ -73,6 +76,11 @@ a {
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
+}
+
+a:hover {
+    color: purple;
+    background-color: wheat;
 }
 
 .hereNow {
@@ -91,7 +99,7 @@ a {
     
 }
 
-
+/*img2 is the compass/ruler pic*/
 .img2 {
     width: 70px;
     height: 70px;
@@ -122,9 +130,30 @@ a {
 
 h3 {
     font-weight:   bold;  
-    height:   30px;
+   //height:   30px;
+   margin:   18.72px 0 18.72px 0;
 }
 
+.spacer1 {
+    height:   35px;
+}
+
+
+.link1 {
+    margin-left:   160px;
+}
+
+.link2 {
+    margin-left: 66px;
+}
+
+.link4 {
+    margin-left: 45px;
+}
+
+.link6 {
+    margin-left: 8px;
+}
 
 figcaption.popup1 {
     padding: 10px 10px 10px 10px;
@@ -140,7 +169,7 @@ figcaption.popup1 {
     position: absolute;
     top: 285px;
     left: 300px;
-    visibility: visible;
+    //visibility: visible;
 }
 
 .thumblink1 {
@@ -160,6 +189,7 @@ figcaption.popup1 {
     color: #299c16;
 }
 
+/* img5 is the kemper plant popup pic*/
 .img5 {
     height: 335px;
     width: 600px;
@@ -180,11 +210,11 @@ figcaption.popup6 {
     position:  absolute;
     top: 150px;
     left: 300px;
-    visibility:  visible;
+    //visibility:  visible;
 }
 
 .thumblink6 {
-    margin:  0;
+    margin:  18.72px 0 18.72px 0;   // add margin here to get on same heirarchy as prev and next h3's'
     height:  20px;
 }
 
@@ -202,56 +232,48 @@ figcaption.popup6 {
    
 }
 
+/* img4 is the Hatch nuke plant popup pic */
 .img4 {
     height:  243px;
     width:   1098px;
 
 }
 
+
+/*  #leftbar  ended up not being used   */
+
+/*  midbar is the container for the timebar graphic */
+#midbar {
+    width:      130px;
+    height: 420px;
+    float: left;
+    background-color:   white;
+    padding:   10px 10px 10px 10px;
+}
+
 /*
-a.link6 {
-    width:  300px;
+.pic3 {
+    //float: left;
+    //border: solid, 10px, black;
 }
     */
 
-#leftbar {
-    width: 20%;
-    height: 330px;
-    /*background-color: #e8eff4;*/
-    font-size: 16px;
-    padding: 0 2% 0 2%;
-    float: left;
-    text-align: right;
-}
-
-#midbar {
-    width:100px;
-    height: 330px;
-    float: left;
-    background-color:   white;
-    padding:   0 0 0 140px;
-}
-
-.pic3 {
-    float: left;
-    border: solid, 10px, black;
-}
-
-
+/*  img3 is the timebar graphic */
 .img3 {
-    width: 100px;
-    height: 315px;
-    padding: 12px 0 0 0;
+    //width: 100px;
+    height: 410px;
+    padding: 0px 0px 0px 30px;
     float:   left;
 }
 
-
+/*  rightbar is the container for all of the job titles that correspond
+    to the timebar
+*/
 #rightbar {
     width: 80%;
-    height: 330px;
-    /*background-color: #e8eff4;*/
+    height: 400px;
     font-size: 16px;
-    padding: 20px 0 0 40px;
+    padding: 40px 0 0 40px;
     float: left;
     text-align: left;
     display:  block;
@@ -265,7 +287,7 @@ a.link6 {
 }
 
 .bio h3 a {
-    
+    height:   20px;
     padding:  40px;
 }
 
@@ -280,29 +302,32 @@ a.link6 {
 
 
 
+#footer {
+    width: 100%;
+    height:  50px;
+}
 
+
+
+#foot {
+    float:  left;
+    width:  80%;
+    text-align:   center;
+    color:  #2816d6;
+    font-size:    16px;
+    font-style:    italic;
+    padding:  0 0 0 0;
+    display:   inline;
+}
+
+/*
 nav {
     float: right;
     color: #2308f8;
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    padding: 20px 60px 0 0;
-    text-align: center;
+    padding: 0 30px 0 0;
+    display:   inline;
 }
-
-#footer {
-    width: 100%;
-    height:  10%;
-}
-
-
-
-#foot {
-    color:  #2816d6;
-    font-size:    16px;
-    font-style:    italic;
-    text-align:     center;
-    padding:  0 0 0 0;
-    height:   60px;
-}
+ */   

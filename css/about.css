@@ -1,6 +1,6 @@
 .wrapper{
     border:   solid, 5px, #342c5a;
-    
+    height:  auto;
 }
 
 body {
@@ -124,7 +124,7 @@ a {
 
 .content{
     width:   100%;
-    height:   400px;
+    height:   350px;
 }
 
 
@@ -136,17 +136,18 @@ h3 {
 
 #rightbar {
     width: 67%;
-    height: 400px;
+    //height: 400px;
     /*background-color: #e8eff4;*/
     font-size: 16px;
     padding: 0 2% 0 2%;
     float: left;
 }
 
-.bio, .work, .education {
+.bio {
     font-size: 16px;
     float: left;
     width: 100%;
+    height:  100%;
     padding: 0 2% 0 0;
 }
 
@@ -172,37 +173,32 @@ h5 {
     width: 100%;
     padding: 0 2% 0 0;
 }
-/*
-p {
-    width: 100%;
-}
-*/
 
-nav {
-    /*float: right;*/
-    color: #2308f8;
-    font-size: 14px;
-    font-style: italic;
-    font-weight: bold;
-    padding: 20px 60px 0 0;
-    text-align: center;
-}
+
+
 
 #footer {
     width: 100%;
     
 }
 
-.back {
-    float:  right;
-    padding:  0 30px 0 0;
-}
+
 
 #foot {
     color:  #2816d6;
     font-size:    16px;
     font-style:    italic;
     text-align:     center;
-    padding:  0 0 0 0;
-   /* height:   20px;*/
+    display:    inline;
+    padding:   0 0 0 80px;
+}
+
+nav {
+    //float: right;
+    color: #2308f8;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: bold;
+    padding: 0px 0px 0 120px;
+    display:   inline;
 }

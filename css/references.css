@@ -1,6 +1,6 @@
 .wrapper{
     border:   solid, 5px, #342c5a;
-    
+    width:   100%;
 }
 
 body {
@@ -120,8 +120,7 @@ a {
 
 #leftbar {
     width: 46%;
-    height: 400px;
-    /*background-color: #e8eff4;*/
+    height: 525px;
     font-size: 18px;
     padding: 0 2% 0 2%;
     float: left;
@@ -133,7 +132,7 @@ a {
     font-weight:   bold;
     float: left;
     width: 100%;
-    padding: 2% 2% 0 2%;
+    padding: 0 0 0 2%;
 }
 
 /*
@@ -147,17 +146,19 @@ body > div > div.content > form > fieldset > p > label {
     font-size: 16px;
     float: left;
     width: 100%;
-    padding: 4% 2% 0 4%;
+    padding: 0 0 0 2%;
 }
 
 .prof {
     width:  300px;
     float:  left;
+    //line-height:    1.5;
 }
 
 .pers {
     width: 300px;
     float: left;
+    //line-height:   1.5;
 }
 
 div h3 p {
@@ -188,18 +189,18 @@ label {
 }
 
 nav {
-    float: right;
+    float:left;
     color: #2308f8;
     font-size: 14px;
     font-style: italic;
     font-weight: bold;
-    padding: 20px 60px 0 0;
-    text-align: center;
+    padding: 0 0 0 0;
+    text-align: left;
 }
 
 #footer {
     width: 100%;
-    height:  10%;
+    
 }
 
 #foot {
@@ -207,6 +208,11 @@ nav {
     font-size:    16px;
     font-style:    italic;
     text-align:     center;
-    padding:  0 0 0 0;
-    height:   60px;
+    padding:  0 30px 0 0;
+    
+}
+
+#formContain1 {
+    float:  left;
+    height:   600px;
 }
