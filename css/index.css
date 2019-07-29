@@ -1,13 +1,15 @@
-.wrapper {
-    // border: solid, 5px, #342c5a;
-     width: 100%;
-}
-
 body {
     margin: 0;
     padding: 0;
     color: #333;
     font-family: 'Roboto','Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+    // border: solid, 5px, #342c5a;
+    //width: 1000px;
+   //margin: auto;
+    //background-color: #4eeb2a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -61,7 +63,7 @@ nav ul li {
     float: left;
     display: inline-block;
     width: 140px;
-    text-align: left;
+    text-align: center;
     padding: 0 0 15px 0;
 }
 
@@ -76,7 +78,7 @@ a {
     font-weight: bold;
 }
 
-    a:hover {
+a:hover {
         color: purple;
         background-color: wheat;
     }
